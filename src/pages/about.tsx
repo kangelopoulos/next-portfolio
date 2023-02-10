@@ -1,4 +1,5 @@
 import Image from "next/image";
+import '../styles/About.module.scss';
 
 export default function About() {
   return (
@@ -9,7 +10,7 @@ export default function About() {
         <p>In my off hours, you&apos;d find me road tripping to national parks with my bass fishing rod and my big shepherd mix, Odin, probably with a book about some exciting technology tucked under my arm.</p>
       </div>
       <div className="side">
-        <p>Me &</p><Image src="https://kate-portfolio-bucket.s3.us-east-2.amazonaws.com/me%26odin.png" alt="me and my dog" /><p>Odin</p>
+        <p>Me &</p><Image width={150} height={192} src="https://kate-portfolio-bucket.s3.us-east-2.amazonaws.com/me%26odin.png" alt="me and my dog" /><p>Odin</p>
       </div>
     </div>
   )
