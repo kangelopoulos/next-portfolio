@@ -9,8 +9,10 @@ export default function RootLayout({ children }) {
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <Header />
-      <body>{children}</body>
+      <body>
+        <Header />
+        <div>{children}</div>
+      </body>
     </html>
   )
 }
