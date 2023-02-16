@@ -1,7 +1,9 @@
+import './Light.module.scss';
+
 export default function Light() {
   return (
     <div className="spacing">
-      <div className="wrapper" onClick={lights}>
+      <div className="wrapper">
         <div className="lightbulb">
           <div className="base">
             <div className="bulb">

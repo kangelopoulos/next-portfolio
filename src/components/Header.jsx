@@ -5,7 +5,8 @@ export default function Header() {
   return (
     <div id="navbar">
       <Light />
-      <div className="row">
+      <div id="nav-links" className="row"></div>
+      <div id="nav-socials" className="row">
         <a className="social-link" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/kangelopoulos/">LinkedIn</a>
         <a className="social-link" rel="noreferrer" target="_blank" href="https://github.com/kangelopoulos">Github</a>
         <a className="social-link" rel="noreferrer" target="_blank" href="https://medium.com/@kangelopoulos">Medium</a>
