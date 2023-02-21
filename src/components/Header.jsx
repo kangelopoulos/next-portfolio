@@ -7,6 +7,8 @@ export default function Header() {
       <Light />
       <div id="nav-links" className="row">
         <Link href="/">Welcome</Link>
+        <Link href="/about">About Me</Link>
+        <Link href="/work">My Work</Link>
       </div>
       <div id="nav-socials" className="row">
         <a className="social-link" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/kangelopoulos/">LinkedIn</a>

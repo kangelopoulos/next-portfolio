@@ -1,5 +1,3 @@
-import './Light.module.scss';
-
 export default function Light() {
   return (
     <div className="spacing">
